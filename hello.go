@@ -1,5 +1,7 @@
 package main
 
-fumc main(){
-  fmt.Printf('Hello\n')
+import "fmt"
+
+func main() {
+	fmt.Printf("Hello\n")
 }
