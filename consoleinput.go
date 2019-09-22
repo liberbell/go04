@@ -23,6 +23,6 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	} else {
-		fmt.Println('Value of number: ', f)
+		fmt.Println("Value of number: ", f)
 	}
 }
