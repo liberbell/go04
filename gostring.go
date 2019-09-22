@@ -19,4 +19,5 @@ func main() {
 	lvalue := "hello"
 	uvalue := "HELLO"
 	fmt.Println("Equal?: ", (strings.ToUpper(lvalue) == uvalue))
+	fmt.Println("Equal non-case-sensitive?: ", strings.EqualFold(lvalue, uvalue))
 }
