@@ -15,4 +15,8 @@ func main() {
 	fmt.Println(strings.ToUpper(str1))
 	fmt.Println(strings.Title(str1))
 	fmt.Println(strings.ToLower(str2))
+
+	lvalue := "hello"
+	uvalue := "HELLO"
+	fmt.Println("Equal?: ", (lvalue == uvalue))
 }
