@@ -19,7 +19,7 @@ func main() {
 
 	fmt.Print("Enter a number: ")
 	str, _ = reader.ReadString('\n')
-	f, err := strconv.ParseFloat(str, 64)
+	f, err := strconv.ParseFloat(string.TrimSpace(str), 64)
 	if err != nil {
 		fmt.Println(err)
 	} else {
