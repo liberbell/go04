@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	t := time.Date(2019, time.November, 10, 23, 0, 0, 0, time.UTC)
+	t := time.Date(2019, time.September, 9, 23, 0, 0, 0, time.UTC)
 	fmt.Printf("Go launched at %s\n", t)
 
 	now := time.Now()
@@ -19,6 +19,6 @@ func main() {
 	tomorrow := t.AddDate(0, 0, 1)
 	fmt.Printf("Tomorrow is %v, %v %v, %v\n", tomorrow.Weekday(), tomorrow.Month(), tomorrow.Day(), tomorrow.Year())
 
-	longFormat := "Monday, January 2, 2019"
+	longFormat := "Monday, September 23, 2019"
 	fmt.Println("Tomorrow is", tomorrow.Format(longFormat))
 }
