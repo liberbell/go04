@@ -10,5 +10,5 @@ func main() {
 	fmt.Printf("Go launched at %s\n", t)
 
 	now := time.Now()
-	fmt.Printf("The time now is %s\n", t)
+	fmt.Printf("The time now is %s\n", now)
 }
