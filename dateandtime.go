@@ -21,4 +21,6 @@ func main() {
 
 	longFormat := "Monday, September 23, 2019"
 	fmt.Println("Tomorrow is", tomorrow.Format(longFormat))
+	shortFormat := "1/2/06"
+	fmt.Println("Tomorrow is", tomorrow.Format(shortFormat))
 }
