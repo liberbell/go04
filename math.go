@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"math/big"
 )
 
@@ -21,4 +22,8 @@ func main() {
 
 	bigsum.Add(&b1, &b2).Add(&bigsum, &b3)
 	fmt.Printf("Bigsum= %.10g\n", &bigsum)
+
+	circleRadius := 15.5
+	circumference := circleRadius * math.Pi
+	fmt.Printf("Circumference is: %.2f\n", circumference)
 }
