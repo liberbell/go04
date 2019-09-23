@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	t := time.Date(2019, time.September, 9, 23, 0, 0, 0, time.UTC)
+	t := time.Date(2019, time.September, 23, 23, 0, 0, 0, time.UTC)
 	fmt.Printf("Go launched at %s\n", t)
 
 	now := time.Now()
