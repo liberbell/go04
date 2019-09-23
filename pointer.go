@@ -20,6 +20,6 @@ func main() {
 	}
 
 	var value1 float64 = 42.13
-	pointer1 = &value1
+	pointer1 := &value1
 	fmt.Println("Value1: ", *pointer1)
 }
