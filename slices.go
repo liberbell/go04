@@ -12,4 +12,6 @@ func main() {
 	colors = append(colors[1:len(colors)])
 	fmt.Println(colors)
 
+	colors = append(colors[1:])
+	fmt.Println(colors)
 }
