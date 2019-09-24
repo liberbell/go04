@@ -25,4 +25,5 @@ func main() {
 
 	*pointer1 = *pointer1 / 31
 	fmt.Println("Value1: ", *pointer1)
+	fmt.Println("Value1: ", value1)
 }
