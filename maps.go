@@ -29,7 +29,7 @@ func main() {
 	keys := make([]string, len(states))
 	i := 0
 	for k := range states {
-		kesy[i] = k
+		keys[i] = k
 		i++
 	}
 	sort.Strings(keys)
