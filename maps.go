@@ -11,6 +11,6 @@ func main() {
 	states["CA"] = "california"
 	fmt.Println(states)
 
-	california = states["CA"]
+	california := states["CA"]
 	fmt.Println(california)
 }
