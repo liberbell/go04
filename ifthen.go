@@ -9,7 +9,7 @@ func main() {
 	if x < 0 {
 		result = "Less than zero"
 	} else {
-		resutl = "Greater than or Equal to zero"
+		result = "Greater than or Equal to zero"
 	}
 	fmt.Println("Result: ", result)
 }
