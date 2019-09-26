@@ -10,4 +10,7 @@ func main() {
 	states["OR"] = "oregon"
 	states["CA"] = "california"
 	fmt.Println(states)
+
+	california = states["CA"]
+	fmt.Println(california)
 }
