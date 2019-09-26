@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var x float64 = 42
+	var x float64 = -10
 	var result string
 
 	if x < 0 {
