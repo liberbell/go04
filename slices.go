@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 func main() {
 	var colors = []string{"Red", "Green", "Blue"}
@@ -26,4 +29,7 @@ func main() {
 	numbers = append(numbers, 235)
 	fmt.Println(numbers)
 	fmt.Println(cap(numbers))
+
+	sort.Ints(numbers)
+	fmt.Println(numbers)
 }
