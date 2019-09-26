@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var x float64 = 42
-	var resutl string
+	var result string
 
 	if x < 0 {
 		result = "Less than zero"
