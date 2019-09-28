@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	rand.Seed(time.Now().unix())
+	rand.Seed(time.Now().Unix())
 	dow := rand.Intn(6) + 1
 	fmt.Println("Day", dow)
 }
