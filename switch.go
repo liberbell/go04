@@ -13,7 +13,12 @@ func main() {
 
 	result := ""
 	switch dow {
-	case condition:
+	case 1:
 		result := "It's Sunday!"
+  case 7:
+    result := "It's Saturday!"
+  default:
+    result := "It's Weekday!"
 	}
+  fmt.Println("Day", dow ",", result)
 }
