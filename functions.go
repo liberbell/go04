@@ -15,3 +15,8 @@ func dosomething() {
 func addValues(value1, value2 int) int {
 	return value1 + value2
 }
+
+func addAllValues(values ...int) int {
+	sum := 0
+	fmt.Printf("%T\n", values)
+}
