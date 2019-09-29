@@ -23,10 +23,11 @@ func main() {
 	// fmt.Println("Day", dow, ",", result)
 	fmt.Println(result)
 
-	x := 1
+	x := -42
 	switch {
 	case x < 0:
 		result = "Less than zero"
+		fallthrough
 	case x == 0:
 		result = "Equal to zero"
 	default:
