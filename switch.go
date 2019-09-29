@@ -27,6 +27,9 @@ func main() {
 	switch {
 	case x < 0:
 		result = "Less than zero"
-
+	case x == 0:
+		result = "Equal to zero"
+	default:
+		result = "Greater than zero"
 	}
 }
