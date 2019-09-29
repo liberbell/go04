@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	n1, l1 := fullName("Zephard", "Beebrox")
-	fmt.Printf("Fullname: %v, number of chars: %v", n1, l1)
+	fmt.Printf("Fullname: %v, number of chars: %v\n", n1, l1)
 }
 
 func fullName(f, l string) (string, int) {
