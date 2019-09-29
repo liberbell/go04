@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	dosomething()
 	sum := addValues(1, 2)
-	fmt.Println(sum)
+	fmt.Println("Sum: ", sum)
 }
 
 func dosomething() {
