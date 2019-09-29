@@ -32,4 +32,5 @@ func main() {
 	default:
 		result = "Greater than zero"
 	}
+	fmt.Println(result)
 }
