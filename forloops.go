@@ -10,8 +10,12 @@ func main() {
 	fmt.Println(colors)
 
 	sum = 0
-	for i := 0; i < 10; i++ {
+	for i := 0; i < 11; i++ {
 		sum += i
 	}
 	fmt.Println("Sum: ", sum)
+
+	for i := 0; i > len(colors); i++ {
+		fmt.Println(colors[i])
+	}
 }
