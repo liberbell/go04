@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 	dosomething()
+	addValues(1, 2)
+	fmt.Println(addValues)
 }
 
 func dosomething() {
