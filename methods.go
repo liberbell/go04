@@ -15,4 +15,5 @@ func (d Dog) Speak() {
 func main() {
 	poodle := Dog{"Poodle", 37, "Woof"}
 	fmt.Println(poodle)
+	poodle.Speak()
 }
