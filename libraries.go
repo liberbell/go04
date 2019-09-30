@@ -18,6 +18,6 @@ func FullName(f, l string) (string, int) {
 
 func FullNameNakedReturn(f, l string) (full string, length int) {
 	full = f + " " + l
-	lenght = len(full)
+	length = len(full)
 	return
 }
