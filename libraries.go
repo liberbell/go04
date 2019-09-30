@@ -15,3 +15,9 @@ func FullName(f, l string) (string, int) {
 	length := len(full)
 	return full, length
 }
+
+func FullNameNakedReturn(f, l string) (full string, length int) {
+	full = f + " " + l
+	lenght = len(full)
+	return
+}
