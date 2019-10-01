@@ -33,6 +33,6 @@ func main() {
 
 	animals := []Animal{Dog{}, Cat{}, Cow{}}
 	for _, animal := range animals {
-		fmt.Println(animal.Speak)
+		fmt.Println(animal.Speak())
 	}
 }
