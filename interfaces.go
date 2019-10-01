@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 type Animal interface {
-	Speak(volume int) string
+	Speak() string
 }
 
 type Dog struct {
@@ -11,6 +11,20 @@ type Dog struct {
 
 func (d Dog) Speak() string {
 	return "woof"
+}
+
+type Cat struct {
+}
+
+func (c Cat) Speak() string {
+	return "Meow"
+}
+
+type Cow struct {
+}
+
+func (c Cow) Speak() string {
+	return "Moo"
 }
 
 func main() {
