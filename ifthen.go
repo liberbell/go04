@@ -15,5 +15,6 @@ func main() {
 	}
 	fmt.Println("Result: ", result)
 
-	fmt.println("value of x: ", x)
+	// fmt.println("value of x: ", x)
+
 }
