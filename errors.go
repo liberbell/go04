@@ -21,7 +21,7 @@ func main() {
 		"Ann":  true,
 		"Mike": true}
 
-	attended, ok := attendence["Mike"]
+	attended, ok := attendence["M"]
 	if ok {
 		fmt.Println("Mike attended?", attended)
 	} else {
