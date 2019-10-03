@@ -20,4 +20,11 @@ func main() {
 	attendence := map[string]bool{
 		"Ann":  true,
 		"Mike": true}
+
+	attended, ok := attendence["Mike"]
+	if ok {
+		fmt.Println("Mike attended?", attended)
+	} else {
+		fmt.Println("No info for Mike.")
+	}
 }
