@@ -14,6 +14,6 @@ func main() {
 }
 
 func myfunc() {
-	defer fmt.println("Deffered in the function")
+	defer fmt.Println("Deffered in the function")
 	fmt.Println("Not deffered in the function")
 }
