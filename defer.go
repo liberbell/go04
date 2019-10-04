@@ -8,6 +8,9 @@ func main() {
 
 	defer fmt.Println("Statement 1.")
 	defer fmt.Println("Statement 2.")
+
+	myfunc()
+
 	defer fmt.Println("Statement 3.")
 	defer fmt.Println("Statement 4.")
 	fmt.Println("Undeferd statement.")
