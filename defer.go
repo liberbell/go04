@@ -12,3 +12,8 @@ func main() {
 	defer fmt.Println("Statement 4.")
 	fmt.Println("Undeferd statement.")
 }
+
+func myfunc() {
+	defer fmt.println("Deffered in the function")
+	fmt.Println("Not deffered in the function")
+}
