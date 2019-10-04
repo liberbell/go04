@@ -14,6 +14,11 @@ func main() {
 	defer fmt.Println("Statement 3.")
 	defer fmt.Println("Statement 4.")
 	fmt.Println("Undeferd statement.")
+
+	x := 1000
+	defer fmt.Println("Value of x: ", x)
+	x++
+	fmt.Println("Value of after incrementing: ", x)
 }
 
 func myfunc() {
