@@ -18,7 +18,7 @@ func doSomething() {
 	fmt.Println("Doing something.")
 }
 
-func connecct() {
+func connect() {
 	isConnected = true
 	fmt.Println("Connected to database.")
 }
