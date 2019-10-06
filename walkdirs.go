@@ -25,6 +25,9 @@ func processPath(path string, info os.FileInfo, err error) error {
 	if path != "." {
 		if info.IsDir() {
 			fmt.Println("Directory: ", path)
+		} else {
+			fmt.Println("File: ", info)
 		}
 	}
+	return nil
 }
