@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	connect := "Hello from go."
+	content := "Hello from go."
 	file, err := os.Create("./fromstring.txt")
 	checkError(err)
 	defer file.Close()
