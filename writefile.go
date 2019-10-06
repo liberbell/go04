@@ -19,7 +19,7 @@ func main() {
 	fmt.Printf("Add done with file of %v characters\n", ln)
 
 	bytes := []byte(content)
-	ioutil.WriteFile("./fromstring.txt", bytes, 0644)
+	ioutil.WriteFile("./frombytes.txt", bytes, 0644)
 }
 
 func checkError(err error) {
