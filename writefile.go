@@ -1,6 +1,9 @@
 package main
 
-import "os"
+import (
+	"io"
+	"os"
+)
 
 func main() {
 	connect := "Hello from go."
@@ -8,6 +11,8 @@ func main() {
 	checkError(err)
 	defer file.Close()
 
+	ln, err := io.WriteString(file, content)
+	checkError(err)
 }
 
 func checkError() {
