@@ -32,4 +32,11 @@ func checkError(err error) {
 
 func contentFromServer(url string) string {
 	resp, err := http.Get(url)
+	checkError(err)
+
+	defer resp.Body.Close()
+	bytes, err := ioutil.ReadAll(resp.Body)
+	checkError(err)
+
+	return string(bytes)
 }
