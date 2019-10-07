@@ -6,6 +6,10 @@ import (
 	"net/http"
 )
 
+type Tour struct {
+	Name, Price string
+}
+
 func main() {
 	url := "http://services.explorecalifornia.org/json/tours.php"
 	contents := contentFromServer(url)
