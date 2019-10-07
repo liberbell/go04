@@ -10,7 +10,7 @@ func main() {
 	url := "http://services.explorecalifornia.org/json/tours.php"
 	contents := contentFromServer(url)
 
-	fmt.Println(content)
+	fmt.Println(contents)
 
 }
 
