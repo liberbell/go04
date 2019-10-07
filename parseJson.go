@@ -23,3 +23,13 @@ func main() {
 	contents := string(bytes)
 	fmt.Print(contents)
 }
+
+func checkError(err error) {
+	if err != nil {
+		panic(err)
+	}
+}
+
+func contentFromServer(url string) string {
+	resp, err := http.Get(url)
+}
