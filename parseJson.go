@@ -8,20 +8,10 @@ import (
 
 func main() {
 	url := "http://services.explorecalifornia.org/json/tours.php"
-	resp, err := http.Get(url)
-	if err != nil {
-		panic(err)
-	}
-	fmt.Printf("Response type: %T\n", resp)
-	defer resp.Body.Close()
+	contents := contentFromServer(url)
 
-	bytes, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		panic(err)
-	}
+	fmt.Println(content)
 
-	contents := string(bytes)
-	fmt.Print(contents)
 }
 
 func checkError(err error) {
