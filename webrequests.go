@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	url := "https://services.explorecalifornia.org/json/tours.php"
+	url := "http://services.explorecalifornia.org/json/tours.php"
 
 	resp, err := http.Get(url)
 	if err != nil {
