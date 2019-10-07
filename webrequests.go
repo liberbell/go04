@@ -22,5 +22,5 @@ func main() {
 	}
 
 	contents := string(bytes)
-	fmt.Println(contents)
+	fmt.Print(contents)
 }
