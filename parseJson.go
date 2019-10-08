@@ -38,10 +38,10 @@ func contentFromServer(url string) string {
 }
 
 func toursFromJson(content string) []Tour {
-	tours := make([]tour, 0, 20)
+	tours := make([]Tour, 0, 20)
 
 	decoder := json.NewDecoder(strings.NewReader(content))
-	_, err := decode.Token()
+	_, err := decoder.Token()
 	checkError(err)
 
 	var tour Tour
