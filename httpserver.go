@@ -5,8 +5,7 @@ import (
 	"net/http"
 )
 
-type Hello struct {
-}
+type Hello struct{}
 
 func (h Hello) SersveHTTP(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "<h1>Hello from go web server.</h1>")
