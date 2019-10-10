@@ -12,7 +12,8 @@ func (h Hello) SersveHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	url
+	var h Hello
+	err := http.ListenAndServe("localhost:4000", h)
 }
 
 func checkError(err error) {
